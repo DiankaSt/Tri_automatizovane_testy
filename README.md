@@ -9,7 +9,9 @@ pip install pytest pytest-playwright
 playwright install
 
 Spuštění testů
+
 pytest (všechny najednou) 
+
 pytest test_titulek_stranky.py (jednotlivě)
 
 Popis testů
