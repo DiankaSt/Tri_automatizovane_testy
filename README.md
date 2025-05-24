@@ -1,13 +1,16 @@
 Tento projekt obsahuje tři automatizované testy napsané v Pythonu s využitím frameworku Playwright a pytest-playwright. 
+
 Testují základní funkčnost webové stránky engeto.cz.
 
 Instalace:
+
 pip install pytest pytest-playwright
+
 playwright install
 
 Spuštění testů
 pytest (všechny najednou) 
-pytest test_titulek_stranky.py (jednotilivě)
+pytest test_titulek_stranky.py (jednotlivě)
 
 Popis testů
 1. test_titulek_stranky.py
